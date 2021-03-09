@@ -31,7 +31,7 @@ CREATE TABLE vine (
 	PRIMARY KEY (review_id)
 );
 
-SELECT * FROM reviews;
-SELECT * FROM products;
-SELECT * FROM customers;
-SELECT * FROM vine;
+SELECT * FROM reviews LIMIT 100;
+SELECT * FROM products LIMIT 100;
+SELECT * FROM customers LIMIT 100;
+SELECT * FROM vine LIMIT 100;
