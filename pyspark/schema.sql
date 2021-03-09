@@ -17,7 +17,7 @@ CREATE TABLE products (
 
 CREATE TABLE customers (
 	customer_id INT NOT NULL UNIQUE,
-	customer_count INT,
+	review_count INT,
 	PRIMARY KEY (customer_id)
 );
 
@@ -30,3 +30,8 @@ CREATE TABLE vine (
 	verified_purchase TEXT,
 	PRIMARY KEY (review_id)
 );
+
+SELECT * FROM reviews;
+SELECT * FROM products;
+SELECT * FROM customers;
+SELECT * FROM vine;
